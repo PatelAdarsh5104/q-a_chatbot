@@ -11,7 +11,7 @@ def side_bar():
 
     additional_information = st.sidebar.text_area("Additional Instructions", placeholder="Enter additional information")
     st.session_state['additional_information'] = str(additional_information)
-
+ 
     # st.sidebar.write(st.session_state['additional_information'])
     # st.sidebar.write(st.session_state['google_api_key'])
     # st.sidebar.write(st.session_state['model_name'])

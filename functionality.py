@@ -1,6 +1,6 @@
 import google.generativeai as genai
 import os
-import streamlit as st
+import streamlit as st 
 
 def load_chat_history():
     model = genai.GenerativeModel(model_name=st.session_state['model_name'],

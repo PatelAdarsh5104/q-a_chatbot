@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 from functionality import get_gemini_response, load_chat_history
 
-
+ 
 def main_page():
     try:
         user_question = st.chat_input("Input: ", key="input")

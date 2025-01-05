@@ -18,6 +18,6 @@ if 'additional_information' not in st.session_state:
 
 st.header("ChatBot")
 
-
+ 
 side_bar()
 main_page()
